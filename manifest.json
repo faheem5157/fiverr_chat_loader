@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Fiverr Chat Loader",
+  "version": "1.2",
+  "description": "Load Fiverr conversations using a last-datetime filter, with proper timestamps and images.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.fiverr.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.fiverr.com/inbox/contacts/*/conversation*"],
+      "js": ["content.js"]
+    }
+  ]
+}
