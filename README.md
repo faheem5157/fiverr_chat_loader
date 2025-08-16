@@ -20,7 +20,7 @@ https://www.fiverr.com/inbox/contacts/client/conversation?timestamp=<unix-timest
 https://www.fiverr.com/inbox/contacts/client/conversation?timestamp=1751802826538
 
 
-- Replace `demo` with **your Fiverr client**  
+- Replace `client` with **your Fiverr client**  
 - Replace the timestamp with the time you want to load messages up to.  
   - It must be in **milliseconds** (e.g., `Date.now()` in your browser console).
 
